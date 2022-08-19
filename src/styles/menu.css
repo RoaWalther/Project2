@@ -1,0 +1,47 @@
+@import 'vars';
+
+.Menu {
+	width: 120px;
+	height: auto;
+	border: 1px solid var(--very-light-pink);
+	border-radius: 6px;
+	background-color: var(--white);
+	position: absolute;
+	top: 60px;
+	right: 50px;
+	z-index: 10;
+}
+.Menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.Menu ul li {
+	text-align: center;
+}
+.Menu ul li:nth-child(1),
+.Menu ul li:nth-child(2) {
+	font-weight: bold;
+}
+.Menu ul li:last-child {
+	padding-top: 20px;
+	border-top: 1px solid var(--very-light-pink);
+	background-color: var(--hospital-green);
+}
+.Menu ul li:last-child a {
+	color: var(--blue);
+	font-size: var(--sm);
+}
+.Menu ul li a {
+	color: var(--back);
+	text-decoration: none;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.Menu a:hover{
+	color: var(--blue);
+}
+/* .buton{
+	background-color: var(--hospital-green);
+} */
